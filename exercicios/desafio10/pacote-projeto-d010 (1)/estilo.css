@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor0: #0236ED;
+    --cor1: #0D02F7;
+    --cor2: #4E08E0;
+    --cor3: #9302F7;
+    --cor4: #CD02ED;
+}
+body{
+    background-color: rgb(0, 43, 58);
+}
+header{
+    background-image: url(imagens/fundo.jpg);
+    box-shadow: inset 1px -11px 13px 0px  rgba(0, 0, 0, 0.342);
+    min-width: none;
+    text-align: center;
+    padding: 40px;
+}
+header h1{
+    margin-bottom: 20px;
+    color: #ffffff ;
+    font-family: 'android';
+    box-shadow: 1px 20px 20px 7px black;
+}
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.2em;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 1px 20px 20px 7px black;
+
+}
+nav{
+    padding: 10px; 
+    background-image: linear-gradient(to right,rgb(7, 0, 24), rgb(0, 0, 85), black);
+    text-align: center;
+    box-shadow: 0px 0px 10px black;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;  /*Deley de 0,5 segundos*/
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+main{
+    padding: 20px;
+    margin: auto;
+    min-width: none;
+    max-width: 1000px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+main img{
+    width: 100%;
+}
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+main h1{
+    background-image: linear-gradient(to right,#02e5ed8c,white);
+    font-family: 'android';
+    color: var(--cor0);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+main p{
+    text-align: justify; 
+    text-indent: 30px; /*Espaço no ínicio do parágrafo*/
+    margin: 15px 0px;
+    line-height: 1.5em;/*Altura entre linhas*/
+    font-size: 1.2em; /*Tamanho da letra*/
+}
+main strong{
+    background-color: #02e5ed8c;
+    color: blue;
+    font-weight: bold; /*Para incorpar a letra*/
+}
+aside{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(0, 43, 58);
+}
+aside h3{
+    margin: -20px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px ;
+    background-color: #0236ED;
+    color: white;
+}
+aside p{
+    padding: 10px;
+    color: white;
+}
+aside ul{
+    padding: 10px;
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    color: white;
+    columns: 2;
+}
+footer{
+    background-color: black;
+    color:white;
+    padding: 2px;
+    text-align: center
+}
+div.video{
+    background-color: var(--cor0);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+   }
+   div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+   }

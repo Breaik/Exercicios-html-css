@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1,h2{
+    color: rgb(255, 255, 255);
+}
+#principal{
+    color: black; text-align: center;
+    background-color: blue;
+    border-radius: 100%;
+    border-style: inset;
+}
+.básico{
+    background-color: black;
+    color: rgb(255, 29, 217);
+}

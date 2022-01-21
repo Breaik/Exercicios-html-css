@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<style>
+    a{
+        background-color: rgb(255, 255, 255);
+        text-decoration: none;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif; width: 200px; right: 200px;
+        font-weight: bold;
+    }
+    a:hover{
+        color: black;
+        text-decoration: underline;
+    }
+    a:active{
+        color:red
+    }
+    a::after{
+        content: ' [link]';
+        color: rgb(176, 211, 241);
+        font-weight: normal;
+        text-decoration: none;
+    }
+    h2{
+        background-color: blue;
+        display: inline-block;
+        width: 200px; height: 100px;
+    }
+    h2:hover{
+        background-color: black;
+    }
+    h2:hover > p{
+        display: none;
+    }
+</style>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/98shoots/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/channel/UC4aiJNDUviw_vMhdCq5Kq1Q"> Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/matricule-se-agora/?gclid=CjwKCAiA55mPBhBOEiwANmzoQhLVNxXbrpAlSvODAJ5GNxHBcrr0Tu6GnLSGzLLruD6-v47NAvspixoCBmMQAvD_BwE">Site do Curso Em Video</a></li>
+    </ul>
+    <h2>01</h2>
+    <h2>02</h2>
+    <h2>03
+        <p>Selecionado</p>
+    </h2>
+</body>
+</html>
