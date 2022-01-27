@@ -70,7 +70,6 @@ section#img02{
 section.imagem p {
     text-indent: 20px;
     text-shadow: 2px 2px black;
-    
     display: inline-block; /* Para se adptar ao tamanho da tela*/
     padding: 10px;
 }
