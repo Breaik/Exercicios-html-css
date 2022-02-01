@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<style>
+    table{
+        border-collapse: collapse;
+    }
+    tr:nth-child(2n){
+        background-color: rgb(146, 146, 235);
+    }
+    th{
+        padding: 20px;
+        border: 1px solid black;
+    }
+    td{
+        border: 1px solid black;
+        padding: 10px;
+    }
+    #nome, #idade, #sexo, #prof{
+        background-color: brown;
+    }
+</style>
+<body>
+    <a href="https://www.youtube.com/watch?v=1Ro7rjINNb0&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&index=38"> Link da aula</a>
+    <table>
+        <colgroup>
+            <col id="nome" colspan ='2'>
+            <col id="idade">
+            <col id="sexo">
+            <col id="prof">
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>28</td>
+            <td>F</td>
+            <td>Arquiteta</td>
+        </tr>
+        <tr>
+            <td>João Kleber</td>
+            <td>33</td>
+            <td>M</td>
+            <td>Gari</td>
+        </tr>
+        <tr>
+            <td>Clara</td>
+            <td>21</td>
+            <td>F</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>39</td>
+            <td>Médica</td>
+        </tr>
+    </table>
+</body>
+</html>
